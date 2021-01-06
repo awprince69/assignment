@@ -17,6 +17,9 @@ h4{
     line-height: 28px;
     font-weight: normal;
 }
+h5{
+    font-size: 64px;
+}
 p{
     color: #3E3E3E;
     font-size: 16px;
@@ -93,4 +96,30 @@ p{
 .box-shadow{
     box-shadow: 10px 20px 40px #ffaa00cb;
     border-radius: 10px;
+}
+.back{
+    width: 64%;
+    padding: 8%;
+    margin: 18px 0px 1% 9%;
+    height: 51px;
+    background-image: url(images/livechat-bg.png);
+    background-size: cover;
+
+}
+.chat{
+text-decoration: none;
+background-image: linear-gradient(45deg,yellow,orange);
+color: rgb(0, 0, 0);
+padding: 10px 29px;
+border-radius: 5%;
+float:right;
+}
+
+.last-width{
+    padding: 0px 0px;
+    border-radius: 5%;
+    float: left;
+    margin: -159px;
+    margin-left:70px;
+
 }
