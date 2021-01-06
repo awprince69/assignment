@@ -72,12 +72,12 @@ p{
 
 .content-item{
     float: left;
-    margin: 0px 15px 20px 15px;
-    padding: 12px;
+    margin-left:8%;
+    padding-left: 0%;
     background-color: white;
     border-radius: 20px;
-    height: 271px;
-    width: 272px;
+    height: 342px;
+    width: 310px;
 }
 .content-item p{
     text-align: center;
@@ -87,4 +87,5 @@ p{
     position: relative;
     width: 277px;
     height: 151px;
+    padding-top: 4%;
 }
