@@ -9,8 +9,13 @@ h1{
 h3{
     font-size: 48px;
     line-height: 48px;
+    text-align: center;
 }
-
+h4{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+}
 p{
     color: #3E3E3E;
     font-size: 16px;
@@ -66,13 +71,20 @@ p{
 }
 
 .content-item{
-    width: 25%;
     float: left;
     margin: 0px 15px 20px 15px;
-    padding: 20px;
-    border: 1px solid #ddd;
+    padding: 12px;
+    background-color: white;
     border-radius: 20px;
+    height: 271px;
+    width: 272px;
 }
 .content-item p{
     text-align: center;
+}
+
+.content-item img{
+    position: relative;
+    width: 277px;
+    height: 151px;
 }
