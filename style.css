@@ -16,9 +16,11 @@ h4{
     font-size: 24px;
     line-height: 28px;
     font-weight: normal;
+    text-align: center;
 }
 h5{
     font-size: 64px;
+    color: white;
 }
 p{
     color: #3E3E3E;
@@ -98,10 +100,10 @@ p{
     border-radius: 10px;
 }
 .back{
-    width: 64%;
-    padding: 8%;
-    margin: 18px 0px 1% 9%;
-    height: 51px;
+    width: 61%;
+    padding: 5%;
+    margin: 8% auto auto 8%;
+    height: 95px;
     background-image: url(images/livechat-bg.png);
     background-size: cover;
 
@@ -119,7 +121,14 @@ float:right;
     padding: 0px 0px;
     border-radius: 5%;
     float: left;
-    margin: -159px;
-    margin-left:70px;
-
+    margin-top: -85px;
+    margin-left:0px;
+}
+#ass{
+    color:teal;
+}
+footer{
+    text-align: center;
+    width: auto;
+    margin: 6% 2% auto 35%;
 }
