@@ -1,5 +1,6 @@
 body{
     font-family: 'Bebas Neue', cursive;
+    margin: 0%;
 }
 h1{
     font-size: 80px;
@@ -88,4 +89,8 @@ p{
     width: 277px;
     height: 151px;
     padding-top: 4%;
+}
+.box-shadow{
+    box-shadow: 10px 20px 40px #ffaa00cb;
+    border-radius: 10px;
 }
