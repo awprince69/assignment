@@ -1,19 +1,28 @@
 body{
     font-family: 'Bebas Neue', cursive;
 }
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+}
 h3{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
 }
 
 p{
     color: #3E3E3E;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
 }
 .half-width{
     width: 40%;
     padding-left: 2%;
     margin-left: 6%;
     float: left;
+    display: inline block;
 }
 .half-width img{
     width: 100%;
@@ -43,6 +52,27 @@ p{
     padding: 3px 38px;
     position: absolute;
     margin-left: -57px;
+}
 
+.working-project{
 
+    width: 100%;
+    padding: 21px;
+    margin: 5%;
+    clear: both;
+    text-align: center;
+    background-color: #F8F9FC;
+    height: 500px;
+}
+
+.content-item{
+    width: 25%;
+    float: left;
+    margin: 0px 15px 20px 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.content-item p{
+    text-align: center;
 }
